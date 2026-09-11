@@ -1,0 +1,41 @@
+{
+  "name": "songclick",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A browser-based metronome that stays in sync with your music.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyberMoss/SongClick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CyberMoss/SongClick/issues"
+  },
+  "homepage": "https://github.com/CyberMoss/SongClick#readme",
+  "keywords": [
+    "metronome",
+    "music-practice",
+    "web-audio"
+  ],
+  "engines": {
+    "node": ">=20.19"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "check": "npm run build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.0"
+  }
+}

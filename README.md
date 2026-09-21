@@ -4,6 +4,8 @@
 
 SongClick 使用同一个 Web Audio API 时钟播放本地歌曲和 click，适合需要降速练习、定位第一拍、细分节拍或反复练习片段的乐手。音频处理全部在浏览器中完成，无需上传本地文件。
 
+**在线体验：** [songclick.pages.dev](https://songclick.pages.dev/)
+
 ![SongClick 界面](docs/screenshots/songclick.png)
 
 ## 功能
